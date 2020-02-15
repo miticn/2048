@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -17.835
+TNS   : -7073.240
+
+Type  : Slow 1200mV 85C Model Setup 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : -0.546
+TNS   : -0.871
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -1074.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -15.929
+TNS   : -6291.990
+
+Type  : Slow 1200mV 0C Model Setup 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : -0.388
+TNS   : -0.388
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -1074.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -9.841
+TNS   : -3725.177
+
+Type  : Fast 1200mV 0C Model Setup 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -1138.828
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Tastatura:inst2|Debouncer:inst40|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+------------------------------------------------------------

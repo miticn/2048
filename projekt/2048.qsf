@@ -1,0 +1,213 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 13:25:15  децембар 21, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		2048_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:25:15  децембар 21, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_NCE_PIN OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_G21 -to CLK
+set_location_assignment PIN_J21 -to G[3]
+set_location_assignment PIN_K17 -to G[2]
+set_location_assignment PIN_J17 -to G[1]
+set_location_assignment PIN_H22 -to G[0]
+set_location_assignment PIN_L21 -to H_SYNC
+set_location_assignment PIN_P22 -to PS2_CLK
+set_location_assignment PIN_P21 -to PS2_DATA
+set_location_assignment PIN_H21 -to R[3]
+set_location_assignment PIN_H20 -to R[2]
+set_location_assignment PIN_H17 -to R[1]
+set_location_assignment PIN_H19 -to R[0]
+set_location_assignment PIN_L22 -to V_SYNC
+set_global_assignment -name BDF_FILE mp1_16.bdf
+set_global_assignment -name BDF_FILE UpravljackiSignali.bdf
+set_global_assignment -name BDF_FILE SdRam.bdf
+set_global_assignment -name BDF_FILE PCD16_4.bdf
+set_global_assignment -name BDF_FILE PCD4_2.bdf
+set_global_assignment -name BDF_FILE OperacioniSignali.bdf
+set_global_assignment -name BDF_FILE MP16_16.bdf
+set_global_assignment -name BDF_FILE MP16_4.bdf
+set_global_assignment -name BDF_FILE MP13_16.bdf
+set_global_assignment -name BDF_FILE MP13_8.bdf
+set_global_assignment -name BDF_FILE MP13_4.bdf
+set_global_assignment -name BDF_FILE MP1_8.bdf
+set_global_assignment -name BDF_FILE MP1_4.bdf
+set_global_assignment -name BDF_FILE MaliKvadratic.bdf
+set_global_assignment -name BDF_FILE DEKODERI/DC64.bdf
+set_global_assignment -name VHDL_FILE binary_bcd.vhd
+set_global_assignment -name VHDL_FILE 7_segment_digit_interface.vhd
+set_global_assignment -name VHDL_FILE CLK_DIVIDER.vhd
+set_global_assignment -name BDF_FILE PCD16NOVI.bdf
+set_global_assignment -name VHDL_FILE pCD.vhd
+set_global_assignment -name BDF_FILE FallingEdge.bdf
+set_global_assignment -name BDF_FILE REG1_INC_CL.bdf
+set_global_assignment -name BDF_FILE RisingEdge.bdf
+set_global_assignment -name BDF_FILE Debouncer.bdf
+set_global_assignment -name BDF_FILE VGAkontroler.bdf
+set_global_assignment -name BDF_FILE UnutrasnjiKvadrat.bdf
+set_global_assignment -name BDF_FILE MX4_4.bdf
+set_global_assignment -name BDF_FILE MX4_18.bdf
+set_global_assignment -name BDF_FILE MX4_16.bdf
+set_global_assignment -name BDF_FILE Tastatura.bdf
+set_global_assignment -name BDF_FILE strelice.bdf
+set_global_assignment -name BDF_FILE Grafika.bdf
+set_global_assignment -name VHDL_FILE ADD5.vhd
+set_global_assignment -name VHDL_FILE ADD1.vhd
+set_global_assignment -name BDF_FILE DEKODERI/DC16.bdf
+set_global_assignment -name BDF_FILE DEKODERI/DC8.bdf
+set_global_assignment -name BDF_FILE DEKODERI/DC4.bdf
+set_global_assignment -name BDF_FILE DEKODERI/DC2.bdf
+set_global_assignment -name VHDL_FILE CMPX.vhd
+set_global_assignment -name VHDL_FILE CONSTX.vhd
+set_global_assignment -name VHDL_FILE MP2X.vhd
+set_global_assignment -name VHDL_FILE REGX.vhd
+set_global_assignment -name BDF_FILE "MP4-1.bdf"
+set_global_assignment -name BDF_FILE 2048.bdf
+set_global_assignment -name BDF_FILE Brain.bdf
+set_global_assignment -name BDF_FILE NOR16BUS.bdf
+set_global_assignment -name BDF_FILE GameOver.bdf
+set_global_assignment -name BDF_FILE main.bdf
+set_global_assignment -name BDF_FILE GrafickiKoder.bdf
+set_global_assignment -name BDF_FILE Time.bdf
+set_global_assignment -name BDF_FILE ADD16.bdf
+set_global_assignment -name BDF_FILE Skor.bdf
+set_global_assignment -name BDF_FILE Kaunt.bdf
+set_location_assignment PIN_C8 -to Addr[12]
+set_location_assignment PIN_A7 -to Addr[11]
+set_location_assignment PIN_B4 -to Addr[10]
+set_location_assignment PIN_B7 -to Addr[9]
+set_location_assignment PIN_C7 -to Addr[8]
+set_location_assignment PIN_A6 -to Addr[7]
+set_location_assignment PIN_B6 -to Addr[6]
+set_location_assignment PIN_C6 -to Addr[5]
+set_location_assignment PIN_A5 -to Addr[4]
+set_location_assignment PIN_C3 -to Addr[3]
+set_location_assignment PIN_B3 -to Addr[2]
+set_location_assignment PIN_A3 -to Addr[1]
+set_location_assignment PIN_C4 -to Addr[0]
+set_location_assignment PIN_B5 -to BA0
+set_location_assignment PIN_A4 -to BA1
+set_location_assignment PIN_E7 -to LDQM
+set_location_assignment PIN_G8 -to nCAS
+set_location_assignment PIN_G7 -to nCS
+set_location_assignment PIN_F7 -to nRAS
+set_location_assignment PIN_D6 -to nWE
+set_location_assignment PIN_E6 -to ramCKE
+set_location_assignment PIN_E5 -to ramCLK
+set_location_assignment PIN_F10 -to ramDATA[15]
+set_location_assignment PIN_E10 -to ramDATA[14]
+set_location_assignment PIN_A10 -to ramDATA[13]
+set_location_assignment PIN_B10 -to ramDATA[12]
+set_location_assignment PIN_C10 -to ramDATA[11]
+set_location_assignment PIN_A9 -to ramDATA[10]
+set_location_assignment PIN_B9 -to ramDATA[9]
+set_location_assignment PIN_A8 -to ramDATA[8]
+set_location_assignment PIN_F8 -to ramDATA[7]
+set_location_assignment PIN_H9 -to ramDATA[6]
+set_location_assignment PIN_G9 -to ramDATA[5]
+set_location_assignment PIN_F9 -to ramDATA[4]
+set_location_assignment PIN_E9 -to ramDATA[3]
+set_location_assignment PIN_H10 -to ramDATA[2]
+set_location_assignment PIN_G10 -to ramDATA[1]
+set_location_assignment PIN_D10 -to ramDATA[0]
+set_location_assignment PIN_B8 -to UDQM
+set_location_assignment PIN_E11 -to 0A
+set_location_assignment PIN_F11 -to 0B
+set_location_assignment PIN_H12 -to 0C
+set_location_assignment PIN_H13 -to 0D
+set_location_assignment PIN_G12 -to 0E
+set_location_assignment PIN_F12 -to 0F
+set_location_assignment PIN_F13 -to 0G
+set_location_assignment PIN_A13 -to 1A
+set_location_assignment PIN_B13 -to 1B
+set_location_assignment PIN_C13 -to 1C
+set_location_assignment PIN_A14 -to 1D
+set_location_assignment PIN_B14 -to 1E
+set_location_assignment PIN_E14 -to 1F
+set_location_assignment PIN_A15 -to 1G
+set_location_assignment PIN_D15 -to 2A
+set_location_assignment PIN_A16 -to 2B
+set_location_assignment PIN_B16 -to 2C
+set_location_assignment PIN_E15 -to 2D
+set_location_assignment PIN_A17 -to 2E
+set_location_assignment PIN_B17 -to 2F
+set_location_assignment PIN_F14 -to 2G
+set_location_assignment PIN_B18 -to 3A
+set_location_assignment PIN_F15 -to 3B
+set_location_assignment PIN_A19 -to 3C
+set_location_assignment PIN_B19 -to 3D
+set_location_assignment PIN_C19 -to 3E
+set_location_assignment PIN_D19 -to 3F
+set_location_assignment PIN_G15 -to 3G
+set_location_assignment PIN_H1 -to LED3
+set_location_assignment PIN_J1 -to LED0
+set_location_assignment PIN_J2 -to LED1
+set_location_assignment PIN_J3 -to LED2
+set_location_assignment PIN_K22 -to B0
+set_location_assignment PIN_K21 -to B1
+set_location_assignment PIN_J22 -to B2
+set_location_assignment PIN_K18 -to B3
+set_location_assignment PIN_J6 -to SW0
+set_global_assignment -name BDF_FILE BOX.bdf
+set_global_assignment -name BDF_FILE DIFFR.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE CHECKER.bdf
+set_location_assignment PIN_F1 -to BTN0
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

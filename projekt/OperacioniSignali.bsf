@@ -1,0 +1,162 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 256 336)
+	(text "OperacioniSignali" (rect 5 0 102 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "T[63..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "T[63..0]" (rect 21 27 63 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "prechargeOver" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "prechargeOver" (rect 21 43 108 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "CKE" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CKE" (rect 196 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "DQNL" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "DQNL" (rect 186 43 219 57)(font "Arial" (font_size 8)))
+		(line (pt 240 48)(pt 224 48))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "DQNH" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "DQNH" (rect 185 59 219 73)(font "Arial" (font_size 8)))
+		(line (pt 240 64)(pt 224 64))
+	)
+	(port
+		(pt 240 80)
+		(output)
+		(text "CS" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "CS" (rect 203 75 219 89)(font "Arial" (font_size 8)))
+		(line (pt 240 80)(pt 224 80))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "CAS" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "CAS" (rect 194 91 219 105)(font "Arial" (font_size 8)))
+		(line (pt 240 96)(pt 224 96))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "RAS" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "RAS" (rect 194 107 219 121)(font "Arial" (font_size 8)))
+		(line (pt 240 112)(pt 224 112))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "WE" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "WE" (rect 201 123 219 137)(font "Arial" (font_size 8)))
+		(line (pt 240 128)(pt 224 128))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "incCounter10000" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "incCounter10000" (rect 123 139 219 153)(font "Arial" (font_size 8)))
+		(line (pt 240 144)(pt 224 144))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "clCounter10000" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "clCounter10000" (rect 130 155 219 169)(font "Arial" (font_size 8)))
+		(line (pt 240 160)(pt 224 160))
+	)
+	(port
+		(pt 240 176)
+		(output)
+		(text "incCounter8" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "incCounter8" (rect 151 171 219 185)(font "Arial" (font_size 8)))
+		(line (pt 240 176)(pt 224 176))
+	)
+	(port
+		(pt 240 192)
+		(output)
+		(text "clCounter8" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "clCounter8" (rect 158 187 219 201)(font "Arial" (font_size 8)))
+		(line (pt 240 192)(pt 224 192))
+	)
+	(port
+		(pt 240 208)
+		(output)
+		(text "ldAddr" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "ldAddr" (rect 182 203 219 217)(font "Arial" (font_size 8)))
+		(line (pt 240 208)(pt 224 208))
+	)
+	(port
+		(pt 240 224)
+		(output)
+		(text "clAddr" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "clAddr" (rect 182 219 219 233)(font "Arial" (font_size 8)))
+		(line (pt 240 224)(pt 224 224))
+	)
+	(port
+		(pt 240 240)
+		(output)
+		(text "modeSet" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "modeSet" (rect 170 235 219 249)(font "Arial" (font_size 8)))
+		(line (pt 240 240)(pt 224 240))
+	)
+	(port
+		(pt 240 256)
+		(output)
+		(text "ADeset" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "ADeset" (rect 177 251 219 265)(font "Arial" (font_size 8)))
+		(line (pt 240 256)(pt 224 256))
+	)
+	(port
+		(pt 240 272)
+		(output)
+		(text "ldData" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "ldData" (rect 184 267 219 281)(font "Arial" (font_size 8)))
+		(line (pt 240 272)(pt 224 272))
+	)
+	(port
+		(pt 240 288)
+		(output)
+		(text "clButton" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "clButton" (rect 173 283 219 297)(font "Arial" (font_size 8)))
+		(line (pt 240 288)(pt 224 288))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 304))
+	)
+)

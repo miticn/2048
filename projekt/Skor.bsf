@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 240 336)
+	(text "Skor" (rect 5 0 30 13)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 305 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "registar0[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar0[15..0]" (rect 21 27 104 40)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "registarD15[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD15[15..0]" (rect 21 43 121 56)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "registar1[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar1[15..0]" (rect 21 59 104 72)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "registar2[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar2[15..0]" (rect 21 75 104 88)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "registar3[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar3[15..0]" (rect 21 91 104 104)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "registar4[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar4[15..0]" (rect 21 107 104 120)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "registar5[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar5[15..0]" (rect 21 123 104 136)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "registar6[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar6[15..0]" (rect 21 139 104 152)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "registar7[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar7[15..0]" (rect 21 155 104 168)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "registar8[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar8[15..0]" (rect 21 171 104 184)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "registar9[15..0]" (rect 0 0 83 13)(font "Arial" (font_size 8)))
+		(text "registar9[15..0]" (rect 21 187 104 200)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "registarD10[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD10[15..0]" (rect 21 203 121 216)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "registarD11[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD11[15..0]" (rect 21 219 121 232)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "registarD12[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD12[15..0]" (rect 21 235 121 248)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "registarD13[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD13[15..0]" (rect 21 251 121 264)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "registarD14[15..0]" (rect 0 0 100 13)(font "Arial" (font_size 8)))
+		(text "registarD14[15..0]" (rect 21 267 121 280)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "SKOR[15..0]" (rect 0 0 70 13)(font "Arial" (font_size 8)))
+		(text "SKOR[15..0]" (rect 133 27 203 40)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 304))
+	)
+)
